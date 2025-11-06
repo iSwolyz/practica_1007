@@ -10,11 +10,11 @@ git config user.email // verificar email
 git status // verificar estado de la carpeta
 git clone https://github.com/frankinem/practica_1007.git // subir o descargar desde github
 
-git init 
-git add .
-git commit -m "Primera version"
-git branch -M main
-git remote add origin https://github.com/iSwolyz/practica_1007.git
-git push -u origin main
+git init // crear .git en la carpeta
+git add . // actualizar archivos
+git commit -m "Primera version" // crear commits
+git branch -M main // subir a main
+git remote add origin https://github.com/iSwolyz/practica_1007.git // seleccionar repositorio
+git push -u origin main // subir al repositorio
 
-borrar rundll32.exe keymgr.dll,KRShowKeyMgr
+borrar rundll32.exe keymgr.dll,KRShowKeyMgr // borrar credenciales
