@@ -1,1 +1,20 @@
-fewfwefwef
+git COMANDOS GIT ACTUALIZADOS
+
+comandos Git
+git--version //
+cmdkey /delete: // borrar credenciales
+git config --global user.name "frankinem" // establecer usuario
+git config user.name // verificar usuario
+git config --global user.email frankedier@inemkennedy.edu.co // establecer email
+git config user.email // verificar email
+git status // verificar estado de la carpeta
+git clone https://github.com/frankinem/practica_1007.git // subir o descargar desde github
+
+git init 
+git add .
+git commit -m "Primera version"
+git branch -M main
+git remote add origin https://github.com/iSwolyz/practica_1007.git
+git push -u origin main
+
+borrar rundll32.exe keymgr.dll,KRShowKeyMgr
